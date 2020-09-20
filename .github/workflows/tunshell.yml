@@ -22,3 +22,4 @@ jobs:
       - name: connect to tunshell
         run: |
           curl -sSf https://lets.tunshell.com/init.sh | sh /dev/stdin T ${{ secrets.TUNSHELL1 }}" eu.relay.tunshell.com
+          echo goodbye
